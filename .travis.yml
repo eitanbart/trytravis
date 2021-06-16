@@ -7,6 +7,7 @@ deploy:
   username: eitan
   password: 8Anistressed!1
   site: http://studygroupsapp.azurewebsites.net
+  skip_cleanup: true
   on:
     branch: master
-  skip_cleanup: true
+
