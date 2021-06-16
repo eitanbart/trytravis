@@ -3,9 +3,10 @@ language: node_js
 node_js:
   - 14
 deploy:
-  skip_cleanup: true
-  on: 
-    branch: master
-
   provider: azure_web_apps
-
+  username: eitan
+  password: 8Anistressed!1
+  site: http://studygroupsapp.azurewebsites.net
+  on:
+    branch: master
+  skip_cleanup: true
